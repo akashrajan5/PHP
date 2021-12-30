@@ -22,7 +22,7 @@ function changepass(){
 */
 <?php
   include "db-connection.php";
-	global $conn;
+  global $conn;
   $email = isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '';
   $old_pass = isset($_POST['curr_pass']) ? htmlspecialchars($_POST['curr_pass']) : '';
   $new_pass = isset($_POST['new_pass']) ? htmlspecialchars($_POST['new_pass']) : '';
