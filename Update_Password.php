@@ -1,4 +1,4 @@
-//update hashed password from database
+//update hashed password from database and save as hashed to database
 
 
 //Post email, password from php or ajax
